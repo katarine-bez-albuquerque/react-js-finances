@@ -7,7 +7,7 @@
 
 ## Sobre o projeto
 
-Clique e acesse o projeto: [finances-react](https://)
+Clique e acesse o projeto: [finances-react](https://react-js-finances.vercel.app/)
 
 Trabalho realizado com o framework React Js, com uso de TypeScript, HTML5, CSS3 e Flexbox. 
 
