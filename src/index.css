@@ -52,10 +52,18 @@ input[type="submit"] {
 
 @media(max-width: 900px) {
     body,
-    #root {
+    #root,
+    main {
         width: 100%;
+        height: auto;
+    }
+    body,
+    #root {
         overflow-y: auto;
         overflow-x: hidden;
+    }
+    main {
+        height: auto;
     }
     h1 {
         font-size: 1.7rem;
