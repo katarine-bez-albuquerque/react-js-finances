@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    font-family: "Arial";
+    letter-spacing: 0.1rem;
+}
+body::-webkit-scrollbar,
+#root::-webkit-scrollbar {
+    width: 0;
+}
+body,
+#root {
+    width: 100%;
+    height: 100vh;
+    background-color: #FFF;
+    overflow-y: hidden;
+}
+h1 {
+    font-size: 3.2rem;
+}
+h2 {
+    font-size: 2.8rem;
+}
+h3 {
+    font-size: 2.3rem;
+}
+h4 {
+    font-size: 1.6rem;
+}
+h5 {
+    font-size: 1.3rem;
+}
+h6 {
+    font-size: 1.025rem;
+}
+p,
+a,
+button,
+input[type="submit"],
+label,
+span {
+    font-size: 1.2rem;
+}
+input[type="button"],
+input[type="text"],
+input::placeholder {
+    font-size: 1.7rem;
+}
+button,
+input[type="submit"] {
+    cursor: pointer;
+}
+
+@media(max-width: 900px) {
+    body,
+    #root {
+        width: 100%;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+    h1 {
+        font-size: 1.7rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    h3 {
+        font-size: 1.3rem;
+    }
+    h4 {
+        font-size: 1.2rem;
+    }
+    h5 {
+        font-size: 1.1rem;
+    }
+    h6 {
+        font-size: 1.025rem;
+    }
+    p,
+    a,
+    button,    
+    input[type="submit"],
+    label,
+    span {
+        font-size: 1.1rem;
+    }
+    input[type="text"],
+    input::placeholder {
+        font-size: 1.3rem;
+    }
+}

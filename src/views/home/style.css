@@ -1,0 +1,367 @@
+.container {
+    width: 100%;
+    height: 80vh;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.deactivate {
+    color: #d40000;
+}
+
+.active {
+    color: #008000;
+}
+
+.nav {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    background-color: #000080;
+}
+
+.nav span {
+    width: auto;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #FFF;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.nav span img {
+    width: 42px;
+    height: auto;
+}
+
+.nav ul {
+    width: auto;
+    height: auto;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav ul li {
+    width: auto;
+    height: auto;    
+}
+
+.nav ul li a {
+    padding: 1rem;
+    box-sizing: border-box;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #FFF;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.row {
+    width: 100vw;
+    height: auto;
+    box-sizing: border-box;
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.p {
+    padding: 3rem 5rem;
+}
+
+.plateral {
+    padding: 0 5rem;
+}
+
+.column {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.base-white {
+    background-color: #FFF;
+}
+
+.base-gray {
+    background-color: #ECECEC;
+}
+
+.titles {
+    width: 50vw;
+    height: auto;
+}
+
+.titles h1 {
+    color: #000080;
+    font-weight: 700;
+}
+
+.titles h4 {
+    color: #008000;
+    font-weight: 500;
+}
+
+.saldo {
+    width: 50vw;
+    height: 150px;
+    padding: 0 3rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('../../assets/imgs/saldo.png');
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.saldo h4 {
+    color: #000080;
+    font-weight: 500;
+}
+
+.saldo h3 {
+    font-weight: 700;
+}
+
+.info {
+    width: 50vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.row:nth-child(2) {
+    padding: 1rem 5rem;
+}
+
+.info p {
+    color: #000080;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+.values {
+    width: 50vw;
+    height: auto;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.val {
+    width: auto;
+    height: auto;
+    text-align: center;    
+}
+
+.val h4:nth-child(1) {
+    font-weight: 500;
+}
+
+.gain h4{
+    color: #008000;
+}
+
+.spent h4{
+    color: #d40000;
+}
+
+.form {
+    width: 100%;
+    height: auto;
+    padding: 1rem 0;
+    margin: 0.5rem 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form h5 {
+    color: #d40000;
+    margin: 0.25rem 0;
+}
+
+.form-sec {
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-sec h2 {
+    color: #000080;
+}
+
+.form-sec input {
+    width: 150px;
+    height: auto;
+    padding: 0.2rem 1rem;
+    text-align: center;
+    color: #008000;
+    border: 0 none;
+    border-bottom: 1px solid #000080;
+}
+
+.form-sec input:focus {
+    border-bottom: 1px solid #000080;
+    outline: 0 none;;
+}
+
+.form-sec input::placeholder {
+    color: #008000;
+    font-weight: 700;   
+}
+
+.form-btn {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.form-btn input,
+.form-btn button {
+    border: 0 none;
+    background-color: transparent;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.form-btn input {
+    color: #000080;  
+}
+
+.form-btn button {  
+     color: #d40000; 
+}
+
+.form-btn input:focus,
+.form-btn button:focus {
+    border: 0 none;
+    outline: 0 none;
+}
+
+.box {
+    width: 90vw;
+    height: auto;
+    padding: 2.5rem;
+    margin: 1rem 0;
+    box-sizing: border-box;
+    background-color: #ECECEC;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.box h4 {
+    text-align: center;
+}
+
+.footer {
+    width: 100vw;
+    height: 10vh;
+    padding: 1rem 0;    
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer h6 {
+    color: #000080;
+    text-align: center;
+}
+
+@media(max-width: 900px) {
+    .container {
+        width: 100%;
+        height: auto;
+    }
+    .row:nth-child(1) {
+        flex-wrap: nowrap!important;
+    }
+    .row {
+        width: 100%;
+        flex-wrap: wrap!important;
+        padding: 0 1rem;
+        box-sizing: border-box;
+    }
+    .plateral,
+    .p {
+        padding: 0;
+    }
+    .nav {
+        width: auto;
+        height: 80px;
+        padding: 0 1rem;
+    }
+    .nav ul {
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 0.1rem;
+    }
+    .nav span {
+        font-size: 1rem;
+    }
+    .nav ul li a {
+        font-size: .8rem;
+        padding: 0 0.5rem;
+    }
+    .info {
+        order: 2;
+        width: 100%;
+        padding: 2rem 0;
+        align-items: center;
+    }
+    .info p {
+        text-align: center;
+    }
+    .form {
+        width: 100%;
+        padding: 0;
+    }
+    .form-sec,
+    .form-btn {
+        width: 100%;
+        padding: 0;
+        margin: 0.5rem 0;
+    }
+    .form-sec {
+        justify-content: center;
+    }
+    .form-sec input {
+        width: 25vw;
+    }
+    .values {
+        width: 100%;
+        padding: 2rem 0;
+        justify-content: center;
+    }
+    .footer .column {
+        width: 100vw;
+        padding: 0 1rem;       
+    }
+}
